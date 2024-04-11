@@ -1,0 +1,16 @@
+body {
+    width: 100px;
+    height: 100px;
+    background-color: red; /* Color inicial */
+    animation: changeColor 5s infinite; /* Cambiar color durante 5 segundos, infinitamente */
+  }
+  
+  @keyframes changeColor {
+    0% { background-color: red; } /* Color inicial */
+    50% { background-color: blue; } /* Color intermedio */
+    100% { background-color: green; } /* Color final */
+  }
+
+  h1 {
+    align-items: center;
+  }
